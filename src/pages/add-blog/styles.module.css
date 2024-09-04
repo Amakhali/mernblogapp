@@ -1,0 +1,27 @@
+.wrapper{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    background-color: black;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
